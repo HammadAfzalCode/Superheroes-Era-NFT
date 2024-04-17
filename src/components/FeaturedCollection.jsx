@@ -37,10 +37,7 @@ export const FeaturedCollection = () => {
         </h2>
       </div>
 
-      {/* Corrected mapping logic */}
       <div className="flex items-center mx-auto w-[80%]">
-        {" "}
-        {/* Apply flex class here */}
         {imgPath.map((path) => (
           <FeaturedCollectionItem key={path.id} path={path.img_path} />
         ))}

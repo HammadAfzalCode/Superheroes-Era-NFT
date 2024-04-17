@@ -1,20 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import useResponsiveMenu from "../utils/hooks/useResponsiveMenu";
+import { NAVLINKS } from "../utils/constants/navConstants";
 
 const Navbar1 = () => {
   const [isMenuOpen, setIsMenuOpen] = useResponsiveMenu();
-  const navLinks = [
-    { name: "Home", href: "#" },
-    { name: "Digital Collectibles", href: "#" },
-    { name: "Join the League", href: "#" },
-    { name: "Blog", href: "#" },
-  ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const renderLinks = (extraClass = "") =>
-    navLinks.map((link) => (
+    NAVLINKS.map((link) => (
       <a
         key={link.name}
         href={link.href}
@@ -53,14 +48,14 @@ const Navbar1 = () => {
       <div
         className={`fixed ${
           isMenuOpen ? "" : "hidden"
-        } text-white z-20 inset-0 bg-gradient-to-r from-[#030301] via-[#0E0020] to-[#000000]`}
+        } text-white  z-20 inset-0 bg-gradient-to-r from-[#030301] via-[#0E0020] to-[#000000]`}
       >
         <div id="nav-bar" className="flex justify-between items-center">
           <a href="#">
             <img
               src="src/assets/Yellow.png"
               alt="Logo"
-              className="object-cover max-h-36 max-w-36 lg:h-auto"
+              className="object-cover ml-4 max-h-36 max-w-36 lg:h-auto"
             />
           </a>
           <button onClick={toggleMenu} className="p-6 sm:hidden">
@@ -69,7 +64,7 @@ const Navbar1 = () => {
         </div>
         <div className="mt-6 flex flex-col">
           {renderLinks("font-medium p-3")}
-          <div className="mt-6">
+          <div className="mt-6 ml-4">
             <button className={`${buttonStyle}`}>
               Exclusive Mint Coming Soon
             </button>

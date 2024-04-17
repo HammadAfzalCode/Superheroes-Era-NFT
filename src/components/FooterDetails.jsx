@@ -5,7 +5,6 @@ const FooterDetails = () => {
     <footer className=" text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-between items-center py-8">
-          {/* Newsletter Sign-Up Section */}
           <div className="lg:flex-1 lg:max-w-md mb-6 lg:mb-0">
             <h3 className="text-2xl font-bold uppercase mb-4">
               Don't Miss Out

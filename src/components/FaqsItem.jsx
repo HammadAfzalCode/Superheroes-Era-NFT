@@ -1,3 +1,4 @@
+import React from "react";
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
@@ -6,15 +7,18 @@ const FAQItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="border-b border-gray-600 py-4">
+    <div className="border-b w-3/4 mx-auto relative border-gray-600 py-4">
       <div
         className="flex justify-between items-center cursor-pointer"
         onClick={toggleOpen}
       >
-        <h3 className="text-white font-medium">{question}</h3>
-        <div className="text-white">{isOpen ? "⊖" : "⊕"}</div>
+        <h3 className="text-yellow-500 font-medium">{question}</h3>
+        <div className="text-white">
+          {isOpen ? <i class="fas fa-minus"></i> : <i class="fas fa-plus"></i>}
+        </div>
       </div>
       {isOpen && <div className="text-white mt-2">{answer}</div>}
     </div>
   );
 };
+export default FAQItem;
