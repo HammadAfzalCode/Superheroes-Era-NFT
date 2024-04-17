@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="relative   text-white flex justify-center items-center overflow-none ">
       <div className="w-full xs:w-[60%] sm:w-[60%] flex flex-col  items-center justify-center p-4">
-        <h1 className="text-2xl font-sans font-bold text-[#ECD200] lg:text-3xl xs:text-md sm:text-3xl md:text-4xl font-bold uppercase tracking-wider text-center">
+        <h1 className="text-2xl  sm:text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-[#ECD200] lg:text-3xl xs:text-md sm:text-3xl md:text-4xl font-bold uppercase tracking-wider text-center">
           Digital Collectibles For<br></br> The Creator Economy
         </h1>
         <p
