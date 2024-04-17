@@ -5,7 +5,7 @@ import { ROADMAPDATA } from "../utils/constants/roadmapConstants";
 export const Roadmap = () => {
   return (
     <div className="bg-gradient-to-r  from-[#030301] via-[#0E0020] to-[#000000]">
-      <h2 className="text-yellow-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl p-4 font-bold uppercase  text-center">
+      <h2 className="text-[#ECD200] font-orbitron text-2xl sm:text-3xl md:text-4xl lg:text-5xl p-4 font-bold uppercase  text-center">
         Roadmap
       </h2>
       {ROADMAPDATA.map((item) => (

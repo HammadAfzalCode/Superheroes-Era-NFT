@@ -14,7 +14,7 @@ export const Footer = () => {
           className="md:w-56 sm:w-40 h-auto"
         />
         <div className="flex flex-col">
-          <h2 className=" relative  text-yellow-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl p-4 font-bold uppercase  text-center">
+          <h2 className=" relative  text-[#ECD200] text-2xl sm:text-3xl md:text-4xl lg:text-5xl p-4 font-bold uppercase  text-center">
             JOIN OUR <br></br> COMMUNITY FOR <br></br> INSIDER ACCESS
           </h2>
           <button className=" mt-6 mx-auto left-[40%]  bg-[#060C03] xs:text-sm   text-white py-2 px-4 border-t border-l border-[#ECD200] border-b-4 border-r-4 rounded-sm opacity-100 hover:bg-black">

@@ -7,24 +7,33 @@ export const RoadmapItem = ({ index, title, status }) => {
         <div className="flex items-center gap-2">
           <div>
             <h3
-              className=" text-white text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-none text-center"
-              style={{ fontFamily: "Orbitron", opacity: 1 }}
+              className="text-white font-sans  text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-none text-center"
+              style={{
+                opacity: 1,
+                fontSize: "48px",
+                WebkitTextFillColor: "transparent",
+                WebkitTextStrokeWidth: "2px",
+                WebkitTextStrokeColor: "black",
+                textFillColor: "transparent",
+                textStrokeWidth: "2px",
+                textStrokeColor: "black",
+              }}
             >
               {index < 10 ? `0${index}` : index}
             </h3>
           </div>
           <div className="ml-4 xs:ml-2">
-            <span className="font-medium text-yellow-400 ">{title}</span>
+            <span className="font-medium text-[#ECD200] ">{title}</span>
           </div>
         </div>
 
         <div>
           {status === "Launched" ? (
-            <button className="text-black font-bold bg-yellow-500 p-4 rounded-lg">
+            <button className="text-black font-bold bg-[#ECD200] p-4 rounded-lg">
               {status} <i className="fas fa-check"></i>
             </button>
           ) : (
-            <button className="text-black font-bold border border-yellow-500 p-4 rounded-lg px-8">
+            <button className="text-white font-bold border border-[#ECD200] p-4 rounded-lg px-8">
               {status}
             </button>
           )}

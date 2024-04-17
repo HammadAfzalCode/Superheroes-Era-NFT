@@ -18,7 +18,7 @@ const FooterDetails = () => {
                 placeholder="Enter Your Email Address"
                 className="flex-1 p-2 min-w-0"
               />
-              <button className="bg-yellow-500 hover:bg-yellow-600 text-black p-2 uppercase">
+              <button className="bg-[#ECD200] hover:bg-yellow-600 text-black p-2 uppercase">
                 Sign Up
               </button>
             </form>

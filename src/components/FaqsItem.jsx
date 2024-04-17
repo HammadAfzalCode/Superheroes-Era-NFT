@@ -12,12 +12,12 @@ const FAQItem = ({ question, answer }) => {
         className="flex justify-between items-center cursor-pointer"
         onClick={toggleOpen}
       >
-        <h3 className="text-yellow-500 font-medium">{question}</h3>
+        <h3 className="text-[#ECD200] font-medium">{question}</h3>
         <div className="text-white">
           {isOpen ? <i class="fas fa-minus"></i> : <i class="fas fa-plus"></i>}
         </div>
       </div>
-      {isOpen && <div className="text-white mt-2">{answer}</div>}
+      {isOpen && <div className="text-white text-xs mt-2">{answer}</div>}
     </div>
   );
 };

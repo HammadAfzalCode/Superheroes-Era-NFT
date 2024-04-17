@@ -4,12 +4,12 @@ const JoinTheLeagueCard = () => {
   return (
     <div className="mt-10 flex flex-col">
       <div class=" p-2">
-        <h2 class="text-white text-3xl font-bold text-center">
+        <h2 class="text-white text-md font-bold text-center">
           Community Perks
-          <span class="block h-1 bg-red-600 w-[25%] mx-auto mt-1 mb-2"></span>
+          <span class="block h-1 bg-red-600 xs:w-[40%] sm:w-[20%] md:w-[20%] lg:w-[10%] xl:w-[15%] mx-auto mt-1 mb-2"></span>
         </h2>
       </div>
-      <h2 className=" text-yellow-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold uppercase mb-4 text-center">
+      <h2 className=" text-[#ECD200] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold uppercase mb-4 text-center">
         Join the League
       </h2>
       <img

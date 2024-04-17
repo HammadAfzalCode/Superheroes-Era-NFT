@@ -14,7 +14,14 @@ export default {
       // => @media (min-width: 1440px) { ... }
       xl: "2560px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Orbitron", "sans-serif"], // Sets Orbitron as the default sans-serif font
+      },
+      colors: {
+        "stroke-color": "#fff", // Define stroke color
+      },
+    },
   },
   plugins: [],
 };

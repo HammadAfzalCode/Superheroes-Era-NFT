@@ -32,7 +32,7 @@ export const FeaturedCollection = () => {
           src="src/assets/Group 35841.png"
           className="absolute w-screen h-screen object-cover"
         />
-        <h2 className="relative pt-10 text-yellow-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold uppercase text-center">
+        <h2 className="relative pt-10 text-[#ECD200] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold uppercase text-center">
           Featured Collection
         </h2>
       </div>
