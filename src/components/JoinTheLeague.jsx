@@ -13,7 +13,7 @@ const JoinTheLeagueCard = () => {
         Join the League
       </h2>
       <img
-        src="src\assets\LandPage.png"
+        src="src/assets/LandPage.png"
         className="sm:max-w-4xl sm:max-h-4xl xs:max-w-56 xs:max-h-56 self-center"
       />
       <p className="text-white self-center mt-8 xs:text-sm">

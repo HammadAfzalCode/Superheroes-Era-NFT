@@ -8,9 +8,10 @@ export const FeaturedCard = () => {
         className="sm:h-80 sm:w-60 xs:h-40 xs:w-60 xs:mx-auto  sm:my-auto"
       />
       <div className="bg-gray-800  p-8">
-        <h2 className="sm:text-3xl xs:text-2xl font-bold mb-4 text-[#ECD200]">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-[#ECD200] text-center">
           SUPERHEROINE ERA
         </h2>
+
         <h3 className="text-2xl mb-4 text-[#ECD200]">ABOUT US</h3>
         <p className="mb-6 text-white xs:text-xs text-sm">
           Superheroine Era is a digital collectibles project that aims to design

@@ -26,17 +26,17 @@ const FooterDetails = () => {
 
           <div className="text-center lg:text-right lg:flex-1 lg:max-w-md">
             <img
-              src="src\assets\Yellow.png"
+              src="src/assets/Yellow.png"
               className="object-cover h-auto max-w-56 lg:h-auto"
             />
             <div className="flex mt-4 items-center justify-center lg:justify-end gap-12 mb-6">
               <img
-                src="src\assets\twitter-new-2023-x-logo-white-background-vector_1017-45422.avif"
+                src="src/assets/twitter-new-2023-x-logo-white-background-vector_1017-45422.avif"
                 alt="X Logo"
                 className="h-8 w-8 xs:hidden sm:block"
               />
               <img
-                src="src\assets\636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png"
+                src="src/assets/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png"
                 alt="X Logo"
                 className="h-8 w-8 xs:hidden sm:block"
               />

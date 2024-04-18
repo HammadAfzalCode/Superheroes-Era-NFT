@@ -10,7 +10,7 @@ export const Footer = () => {
     >
       <div className="flex sm:flex-row xs:flex-col container bg-gray-800 w-3/4 mx-auto rounded-lg h-auto ">
         <img
-          src="src\assets\Group 35839.png"
+          src="src/assets/Group 35839.png"
           className="md:w-56 sm:w-40 h-auto"
         />
         <div className="flex flex-col">
@@ -22,7 +22,7 @@ export const Footer = () => {
           </button>
         </div>
         <img
-          src="src\assets\Group 35839.png"
+          src="src/assets/Group 35839.png"
           className="md:w-56 sm:w-40 h-auto"
         />
       </div>
